@@ -1,5 +1,8 @@
 package com.example.orderservicetdd.product;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ProductAdapter implements ProductPort {
 
     private final ProductRepository productRepository;
