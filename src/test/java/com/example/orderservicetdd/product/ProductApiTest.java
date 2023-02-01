@@ -1,17 +1,16 @@
 package com.example.orderservicetdd.product;
 
+import com.example.orderservicetdd.ApiTest;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class ProductApiTest extends ApiTest{
+public class ProductApiTest extends ApiTest {
 
     @Test
     void 상품등록() {
