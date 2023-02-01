@@ -1,7 +1,9 @@
 package com.example.orderservicetdd.product;
 
+import lombok.Getter;
 import org.springframework.util.Assert;
 
+@Getter
 public class GetProductResponse {
 
     private Long id;
